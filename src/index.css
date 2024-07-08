@@ -1,7 +1,12 @@
 @import url(https://db.onlinewebfonts.com/c/57d7ce13093381acee3d40c5a512c770?family=Dogica);
+@import url('//cdn.jsdelivr.net/gh/neodgm/neodgm-webfont@latest/neodgm/style.css');
+
+.neodgm {
+	font-family: 'NeoDunggeunmo' !important;
+}
 
 .dogica {
-  font-family: "Dogica";
+  font-family: "Dogica" !important;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -24,6 +29,11 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+p {
+	word-break: keep-all;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {

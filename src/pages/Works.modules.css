@@ -1,0 +1,10 @@
+.works-container {
+  display: flex;
+  margin: 80px auto;
+  width: 1320px;
+  justify-content: center;
+}
+
+.works-container > div > img {
+  max-width: 652px;
+}

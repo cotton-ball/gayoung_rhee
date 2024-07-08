@@ -1,0 +1,48 @@
+.text-container {
+  width: 1328px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+  padding: 30px;
+
+  width: 540px;
+  border: dashed 5px #F8EFF3;
+  border-radius: 12px;
+
+  margin-top: 30px;
+}
+
+.text-content > h2 {
+  font-size: 32px;
+}
+
+.text-content > p:nth-child(1) {
+  font-size: 16px;
+}
+
+.text-content > p:nth-child(2) {
+  font-size: 20px;
+}
+
+.text-content > p:nth-child(4) {
+  font-size: 18px;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.d9 {
+  color: #d9d9d9;
+}
+
+.f9f {
+  color: #9f9f9f;
+}
