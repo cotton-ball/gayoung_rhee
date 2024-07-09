@@ -15,7 +15,7 @@
   margin: 4% auto;
   padding: 3px;
   border: 1px solid #000000;
-  width: 60%;
+  width: 50%;
 }
 
 .modal-header {
@@ -28,6 +28,7 @@
 .modal-content1 {
   display: flex;
   justify-content: center;
+  padding: 60px 80px;
 }
 
 .swiper-slide > img {
@@ -56,5 +57,5 @@
 
 .center {
   text-align: center;
-  margin: 30px 0;
+  margin-top: 60px;
 }

@@ -35,3 +35,8 @@ a {
   border: solid 2px #000000;
   box-shadow: 3px 3px #9f9f9f;
 }
+
+.link-active {
+  box-shadow: none !important;
+  color: #4b098c;
+}

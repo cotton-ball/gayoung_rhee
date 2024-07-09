@@ -50,6 +50,19 @@ function Works() {
           <img src="/works/12.png" alt="12" />
         </div>
       </div>
+      <div className="works13-img">
+        <img src="/works/13.png" alt="13" />
+      </div>
+      <div className="last-img-container mt">
+        <div className="flex flex-col">
+          <img src="/works/14.png" alt="14" />
+          <img src="/works/15.png" alt="15" />
+        </div>
+        <div className="flex flex-col">
+          <img src="/works/16.png" alt="16" />
+          <img src="/works/17.png" alt="17" />
+        </div>
+      </div>
     </div>
   );
 }

@@ -3,8 +3,39 @@
   margin: 80px auto;
   width: 1320px;
   justify-content: center;
+  gap: 30px;
 }
 
 .works-container > div > img {
   max-width: 652px;
+}
+
+.works13-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+  gap: 10px;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.last-img-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+}
+
+.works-container img {
+  margin-top: 30px;
+}
+
+.mt {
+  margin-top: 30px;
 }
