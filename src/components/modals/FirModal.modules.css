@@ -15,7 +15,7 @@
   margin: 4% auto;
   padding: 3px;
   border: 1px solid #000000;
-  width: 50%;
+  max-width: 1228px;
 }
 
 .modal-header {
@@ -58,4 +58,22 @@
 .center {
   text-align: center;
   margin-top: 60px;
+}
+
+.pop3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.blue {
+  color: #001AFF;
+}
+
+.pop4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
 }

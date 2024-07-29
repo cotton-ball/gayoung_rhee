@@ -23,9 +23,9 @@
 
 .about-box2 {
   position: relative;
-  bottom: 120px;
+  bottom: 170px;
   left: 220px;
-  width: 488px;
+  width: 625px;
   background-color: #d9d9d9;
   padding: 3px;
   border: solid 1px #000000;
@@ -59,7 +59,7 @@
 }
 
 .about2-content {
-  height: 379px;
+  height: 469px;
   background-color: #ffffff;
   margin-top: 3px;
 }
