@@ -14,7 +14,7 @@ function About() {
   return (
     <div className="about-container">
       <div className="about-content">
-        <div className="about-box1">
+        <div className="about-box1 z-up">
           <div className="about-header">
             <h2 className="dogica">about</h2>
             <div>

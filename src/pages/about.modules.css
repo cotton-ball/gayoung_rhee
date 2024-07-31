@@ -1,6 +1,9 @@
 .z-up {
   z-index: 1000;
 }
+.about-box1.z-up { /* Added selector for .z-up in .about-box1 */
+  z-index: 1000;
+}
 
 .about-container {
   display: flex;
