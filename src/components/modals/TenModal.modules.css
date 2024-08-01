@@ -1,0 +1,23 @@
+.video-section {
+    margin-top: 20px; /* Space above the video section */
+    text-align: center; /* Center align the video section */
+  }
+  
+  .video-container {
+    position: relative; /* Position relative for responsive container */
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%; /* Ensure container does not exceed the width of its parent */
+    background: #000; /* Background color for better appearance */
+    margin-top: 20px; /* Space above the video */
+  }
+  
+  .video-container iframe {
+    position: absolute; /* Absolute positioning within the container */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width of the container */
+    height: 100%; /* Full height of the container */
+  }
+  

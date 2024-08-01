@@ -25,8 +25,9 @@ function SecModal(props) {
           </p>
           {/* 비디오 링크 추가 부분 */}
           <div className="video-container">
+  
             <iframe
-              src="https://www.youtube.com/embed/VIDEO_ID"  // 여기에 실제 비디오 ID를 삽입하세요.
+              src="https://www.youtube.com/embed/Gu2kCGZt1ZQ"  // 여기에 실제 비디오 ID를 삽입하세요.
               title="Video description"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
